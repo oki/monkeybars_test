@@ -1,0 +1,37 @@
+h1. Monkeybars and Nokogiri
+
+* foo bar
+
+h2. Building packages
+
+
+<pre><code>
+  jruby -S rake rawr:bundle:app # generate osx app
+  jruby -S rake rawr:bundle:exe # generate win32 app
+</code></pre>
+
+
+h2. Run program
+
+h3. *MacOSX*: OK
+
+<pre><code>
+   open package/osx/ChangeMe.app
+</code></pre>
+
+!http://github.com/oki/monkeybars_test/raw/master/img/ChangeMe_osx.png(ChangeMe_osx)!:http://github.com/oki/monkeybars_test/raw/master/img/ChangeMe_osx.png
+
+
+h3. *Windows XP*: fail
+
+!http://github.com/oki/monkeybars_test/raw/master/img/small_window.png(windows_xp)!:http://github.com/oki/monkeybars_test/raw/master/img/small_window.png
+
+For debug:
+<pre><code>
+   java -jar ChangeMe.jar
+</code></pre>
+
+!http://github.com/oki/monkeybars_test/raw/master/img/full_window.png(windows_xp2)!:http://github.com/oki/monkeybars_test/raw/master/img/full_window.png
+
+
+
