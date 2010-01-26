@@ -1,13 +1,16 @@
 h1. Monkeybars and Nokogiri
 
-* foo bar
+* Example application with monkeybarsm and nokogiri. 
+* And problem with package for windows... Please see below for details.
 
 h2. Building packages
 
 
 <pre><code>
-  jruby -S rake rawr:bundle:app # generate osx app
-  jruby -S rake rawr:bundle:exe # generate win32 app
+  $ git clone http://github.com/oki/monkeybars_test.git 
+  $ cd monkeybars_test
+  $ jruby -S rake rawr:bundle:app # generate osx app
+  $ jruby -S rake rawr:bundle:exe # generate win32 app
 </code></pre>
 
 
@@ -16,7 +19,7 @@ h2. Run program
 h3. *MacOSX*: OK
 
 <pre><code>
-   open package/osx/ChangeMe.app
+   $ open package/osx/ChangeMe.app
 </code></pre>
 
 !http://github.com/oki/monkeybars_test/raw/master/img/ChangeMe_osx.png(ChangeMe_osx)!:http://github.com/oki/monkeybars_test/raw/master/img/ChangeMe_osx.png
@@ -32,6 +35,3 @@ For debug:
 </code></pre>
 
 !http://github.com/oki/monkeybars_test/raw/master/img/full_window.png(windows_xp2)!:http://github.com/oki/monkeybars_test/raw/master/img/full_window.png
-
-
-
