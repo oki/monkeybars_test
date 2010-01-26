@@ -1,6 +1,6 @@
 h1. Monkeybars and Nokogiri
 
-* Example application with monkeybarsm and nokogiri. 
+* Example application with monkeybars and nokogiri. 
 * And problem with package for windows... Please see below for details.
 
 h2. Building packages
